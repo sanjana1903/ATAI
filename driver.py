@@ -2,10 +2,8 @@ import numpy as np
 
 from question_filter import *
 from multimedia import *
-from question_decoder import *
-from recommender_system_emb import *
-
-# question = "Show me a photo of Halle Berry"
+from question_decoder_3 import *
+from recommender_system_emb_0 import *
 
 def run_driver(question, graph, data):
     filter_result = run_filter(question)
