@@ -6,10 +6,10 @@ mult_list = ["show me", "show a", "looks", "look like", "looks like", "photo", "
 
 recm_list = ["recommend", "suggest", "movie like", "film like", "movies like", "films like"]
 
-def run_filter(question, mult_list, recm_list):
+def run_filter(question):
     question_type = None
 
-    df = pd.read_csv("movie-ratings.csv")
+    df = pd.read_csv("/Users/sanjanawarambhey/Downloads/atai_conv_agent/movie-ratings.csv")
     movies = np.unique(df.titles.values.tolist())
 
     try:
