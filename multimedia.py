@@ -65,49 +65,43 @@ def run_mult(question, graph, data):
             for elements in first_tuple:
                 film_shortlist.append(elements)
         except:
-            print(film)
-
-    if len(film_shortlist) > 3:
-        new_slist = random.sample(film_shortlist, 3)
-    else:
-        new_slist = film_shortlist
-
-    unq_1 = []
-
-    for entry in data:
-        try:
-            if entry["movie"][0] == new_slist[0].toPython():
-                # print(entry["cast"])
-                for i in entry["cast"]:
-                    unq_1.append(i)
-        except:
             pass
+            # print(film)
+    
+    
 
-    unq_2 = []
+    for _ in range(10):
+        samp = random.sample(film_shortlist, 2)
+        # print(samp)
 
-    for entry in data:
-        try:
-            if entry["movie"][0] == new_slist[1].toPython():
-                # print(entry["cast"])
-                for i in entry["cast"]:
-                    unq_2.append(i)
-        except:
+        unq_1 = []
+
+        for entry in data:
+            try:
+                if entry["movie"][0] == samp[0].toPython():
+                    # print(entry["cast"])
+                    for i in entry["cast"]:
+                        unq_1.append(i)
+            except:
+                pass
+
+        unq_2 = []
+
+        for entry in data:
+            try:
+                if entry["movie"][0] == samp[1].toPython():
+                    # print(entry["cast"])
+                    for i in entry["cast"]:
+                        unq_2.append(i)
+            except:
+                pass
+        
+        if set(unq_1).intersection(set(unq_2)) != None:
+            target = set(unq_1).intersection(set(unq_2))
+            break
+        else:
             pass
-
-    unq_3 = []
-
-    for entry in data:
-        try:
-            if entry["movie"][0] == new_slist[2].toPython():
-                # print(entry["cast"])
-                for i in entry["cast"]:
-                    unq_3.append(i)
-
-        except:
-            pass
-
-    target = set(unq_1).intersection(set(unq_2))
-
+    
     targ = []
 
     for i in target:
@@ -116,13 +110,11 @@ def run_mult(question, graph, data):
     img_list = []
 
     for entry in data:
-        try:
-            if (len(entry["movie"]) != 0):
-                # print(entry["movie"])
-                if targ[0] in entry["cast"]:
-                    img_list.append(entry["img"])
-        except Exception as e:
-            print(str(e))
+        if (len(entry["movie"]) != 0):
+            # print(entry["movie"])
+            if targ[0] in entry["cast"]:
+                img_list.append(entry["img"])
+                break
 
     image = "https://files.ifi.uzh.ch/ddis/teaching/2021/ATAI/dataset/movienet/images/" + img_list[0]
 
