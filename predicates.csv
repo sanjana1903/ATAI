@@ -1,0 +1,256 @@
+,predicates,pred_links
+0,http://ddis.ch/atai/rating,http://ddis.ch/atai/rating
+1,http://ddis.ch/atai/tag,http://ddis.ch/atai/tag
+2,http://schema.org/description,http://schema.org/description
+3,http://www.w3.org/2000/01/rdf-schema#label,http://www.w3.org/2000/01/rdf-schema#label
+4,applies to jurisdiction,http://www.wikidata.org/prop/direct/P1001
+5,field of work,http://www.wikidata.org/prop/direct/P101
+6,conferred by,http://www.wikidata.org/prop/direct/P1027
+7,crew member(s),http://www.wikidata.org/prop/direct/P1029
+8,native language,http://www.wikidata.org/prop/direct/P103
+9,director / manager,http://www.wikidata.org/prop/direct/P1037
+10,relative,http://www.wikidata.org/prop/direct/P1038
+11,film editor,http://www.wikidata.org/prop/direct/P1040
+12,medical condition,http://www.wikidata.org/prop/direct/P1050
+13,product or material produced,http://www.wikidata.org/prop/direct/P1056
+14,occupation,http://www.wikidata.org/prop/direct/P106
+15,student of,http://www.wikidata.org/prop/direct/P1066
+16,employer,http://www.wikidata.org/prop/direct/P108
+17,from narrative universe,http://www.wikidata.org/prop/direct/P1080
+18,founded by,http://www.wikidata.org/prop/direct/P112
+19,political ideology,http://www.wikidata.org/prop/direct/P1142
+20,home world,http://www.wikidata.org/prop/direct/P1165
+21,place of burial,http://www.wikidata.org/prop/direct/P119
+22,manner of death,http://www.wikidata.org/prop/direct/P1196
+23,publisher,http://www.wikidata.org/prop/direct/P123
+24,facet of,http://www.wikidata.org/prop/direct/P1269
+25,owned by,http://www.wikidata.org/prop/direct/P127
+26,depicted by,http://www.wikidata.org/prop/direct/P1299
+27,located in the administrative territorial entity,http://www.wikidata.org/prop/direct/P131
+28,partner in business or sport,http://www.wikidata.org/prop/direct/P1327
+29,described by source,http://www.wikidata.org/prop/direct/P1343
+30,participant in,http://www.wikidata.org/prop/direct/P1344
+31,winner,http://www.wikidata.org/prop/direct/P1346
+32,movement,http://www.wikidata.org/prop/direct/P135
+33,genre,http://www.wikidata.org/prop/direct/P136
+34,replaces,http://www.wikidata.org/prop/direct/P1365
+35,replaced by,http://www.wikidata.org/prop/direct/P1366
+36,operator,http://www.wikidata.org/prop/direct/P137
+37,capital of,http://www.wikidata.org/prop/direct/P1376
+38,named after,http://www.wikidata.org/prop/direct/P138
+39,partially coincident with,http://www.wikidata.org/prop/direct/P1382
+40,convicted of,http://www.wikidata.org/prop/direct/P1399
+41,religion,http://www.wikidata.org/prop/direct/P140
+42,nominated for,http://www.wikidata.org/prop/direct/P1411
+43,"languages spoken, written or signed",http://www.wikidata.org/prop/direct/P1412
+44,affiliation,http://www.wikidata.org/prop/direct/P1416
+45,has pet,http://www.wikidata.org/prop/direct/P1429
+46,executive producer,http://www.wikidata.org/prop/direct/P1431
+47,published in,http://www.wikidata.org/prop/direct/P1433
+48,takes place in fictional universe,http://www.wikidata.org/prop/direct/P1434
+49,based on,http://www.wikidata.org/prop/direct/P144
+50,present in work,http://www.wikidata.org/prop/direct/P1441
+51,fictional universe described in,http://www.wikidata.org/prop/direct/P1445
+52,list of works,http://www.wikidata.org/prop/direct/P1455
+53,contains administrative territorial entity,http://www.wikidata.org/prop/direct/P150
+54,country for sport,http://www.wikidata.org/prop/direct/P1532
+55,has effect,http://www.wikidata.org/prop/direct/P1542
+56,follows,http://www.wikidata.org/prop/direct/P155
+57,has quality,http://www.wikidata.org/prop/direct/P1552
+58,followed by,http://www.wikidata.org/prop/direct/P156
+59,killed by,http://www.wikidata.org/prop/direct/P157
+60,lifestyle,http://www.wikidata.org/prop/direct/P1576
+61,lowest point,http://www.wikidata.org/prop/direct/P1589
+62,headquarters location,http://www.wikidata.org/prop/direct/P159
+63,cast member,http://www.wikidata.org/prop/direct/P161
+64,MPAA film rating,http://www.wikidata.org/prop/direct/P1657
+65,award received,http://www.wikidata.org/prop/direct/P166
+66,country,http://www.wikidata.org/prop/direct/P17
+67,creator,http://www.wikidata.org/prop/direct/P170
+68,ethnic group,http://www.wikidata.org/prop/direct/P172
+69,performer,http://www.wikidata.org/prop/direct/P175
+70,developer,http://www.wikidata.org/prop/direct/P178
+71,part of the series,http://www.wikidata.org/prop/direct/P179
+72,image,http://www.wikidata.org/prop/direct/P18
+73,depicts,http://www.wikidata.org/prop/direct/P180
+74,choreographer,http://www.wikidata.org/prop/direct/P1809
+75,owner of,http://www.wikidata.org/prop/direct/P1830
+76,represented by,http://www.wikidata.org/prop/direct/P1875
+77,after a work by,http://www.wikidata.org/prop/direct/P1877
+78,different from,http://www.wikidata.org/prop/direct/P1889
+79,place of birth,http://www.wikidata.org/prop/direct/P19
+80,twinned administrative body,http://www.wikidata.org/prop/direct/P190
+81,collection,http://www.wikidata.org/prop/direct/P195
+82,FSK film rating,http://www.wikidata.org/prop/direct/P1981
+83,health specialty,http://www.wikidata.org/prop/direct/P1995
+84,place of death,http://www.wikidata.org/prop/direct/P20
+85,basin country,http://www.wikidata.org/prop/direct/P205
+86,located in or next to body of water,http://www.wikidata.org/prop/direct/P206
+87,aspect ratio,http://www.wikidata.org/prop/direct/P2061
+88,fabrication method,http://www.wikidata.org/prop/direct/P2079
+89,sex or gender,http://www.wikidata.org/prop/direct/P21
+90,box office,http://www.wikidata.org/prop/direct/P2142
+91,father,http://www.wikidata.org/prop/direct/P22
+92,uses,http://www.wikidata.org/prop/direct/P2283
+93,indigenous to,http://www.wikidata.org/prop/direct/P2341
+94,time period,http://www.wikidata.org/prop/direct/P2348
+95,intended public,http://www.wikidata.org/prop/direct/P2360
+96,NMHH film rating,http://www.wikidata.org/prop/direct/P2363
+97,set in period,http://www.wikidata.org/prop/direct/P2408
+98,military branch,http://www.wikidata.org/prop/direct/P241
+99,sports discipline competed in,http://www.wikidata.org/prop/direct/P2416
+100,narrator,http://www.wikidata.org/prop/direct/P2438
+101,mother,http://www.wikidata.org/prop/direct/P25
+102,costume designer,http://www.wikidata.org/prop/direct/P2515
+103,operating area,http://www.wikidata.org/prop/direct/P2541
+104,sidekick of,http://www.wikidata.org/prop/direct/P2546
+105,production designer,http://www.wikidata.org/prop/direct/P2554
+106,superhuman feature or ability,http://www.wikidata.org/prop/direct/P2563
+107,spouse,http://www.wikidata.org/prop/direct/P26
+108,BBFC rating,http://www.wikidata.org/prop/direct/P2629
+109,official residence,http://www.wikidata.org/prop/direct/P263
+110,place of detention,http://www.wikidata.org/prop/direct/P2632
+111,RARS rating,http://www.wikidata.org/prop/direct/P2637
+112,interested in,http://www.wikidata.org/prop/direct/P2650
+113,Kijkwijzer rating,http://www.wikidata.org/prop/direct/P2684
+114,country of citizenship,http://www.wikidata.org/prop/direct/P27
+115,production company,http://www.wikidata.org/prop/direct/P272
+116,Filmiroda rating,http://www.wikidata.org/prop/direct/P2747
+117,copyright license,http://www.wikidata.org/prop/direct/P275
+118,EIRIN film rating,http://www.wikidata.org/prop/direct/P2756
+119,CNC film rating (France),http://www.wikidata.org/prop/direct/P2758
+120,location,http://www.wikidata.org/prop/direct/P276
+121,subclass of,http://www.wikidata.org/prop/direct/P279
+122,cites work,http://www.wikidata.org/prop/direct/P2860
+123,designed by,http://www.wikidata.org/prop/direct/P287
+124,place of publication,http://www.wikidata.org/prop/direct/P291
+125,language used,http://www.wikidata.org/prop/direct/P2936
+126,continent,http://www.wikidata.org/prop/direct/P30
+127,operating system,http://www.wikidata.org/prop/direct/P306
+128,film crew member,http://www.wikidata.org/prop/direct/P3092
+129,practiced by,http://www.wikidata.org/prop/direct/P3095
+130,instance of,http://www.wikidata.org/prop/direct/P31
+131,Australian Classification,http://www.wikidata.org/prop/direct/P3156
+132,art director,http://www.wikidata.org/prop/direct/P3174
+133,ClassInd rating,http://www.wikidata.org/prop/direct/P3216
+134,storyboard artist,http://www.wikidata.org/prop/direct/P3275
+135,musical conductor,http://www.wikidata.org/prop/direct/P3300
+136,broadcast by,http://www.wikidata.org/prop/direct/P3301
+137,ICAA rating,http://www.wikidata.org/prop/direct/P3306
+138,significant person,http://www.wikidata.org/prop/direct/P3342
+139,sibling,http://www.wikidata.org/prop/direct/P3373
+140,CNC film rating (Romania),http://www.wikidata.org/prop/direct/P3402
+141,INCAA film rating,http://www.wikidata.org/prop/direct/P3428
+142,director of photography,http://www.wikidata.org/prop/direct/P344
+143,stepparent,http://www.wikidata.org/prop/direct/P3448
+144,IMDb ID,http://www.wikidata.org/prop/direct/P345
+145,head of state,http://www.wikidata.org/prop/direct/P35
+146,capital,http://www.wikidata.org/prop/direct/P36
+147,part of,http://www.wikidata.org/prop/direct/P361
+148,original language of film or TV show,http://www.wikidata.org/prop/direct/P364
+149,JMK film rating,http://www.wikidata.org/prop/direct/P3650
+150,use,http://www.wikidata.org/prop/direct/P366
+151,official language,http://www.wikidata.org/prop/direct/P37
+152,presenter,http://www.wikidata.org/prop/direct/P371
+153,original film format,http://www.wikidata.org/prop/direct/P3803
+154,KMRB film rating,http://www.wikidata.org/prop/direct/P3818
+155,RTC film rating,http://www.wikidata.org/prop/direct/P3834
+156,located in present-day administrative territorial entity,http://www.wikidata.org/prop/direct/P3842
+157,copyright holder,http://www.wikidata.org/prop/direct/P3931
+158,child,http://www.wikidata.org/prop/direct/P40
+159,platform,http://www.wikidata.org/prop/direct/P400
+160,language of work or name,http://www.wikidata.org/prop/direct/P407
+161,field of this occupation,http://www.wikidata.org/prop/direct/P425
+162,distribution format,http://www.wikidata.org/prop/direct/P437
+163,FPB rating,http://www.wikidata.org/prop/direct/P4437
+164,original broadcaster,http://www.wikidata.org/prop/direct/P449
+165,unmarried partner,http://www.wikidata.org/prop/direct/P451
+166,industry,http://www.wikidata.org/prop/direct/P452
+167,first appearance,http://www.wikidata.org/prop/direct/P4584
+168,said to be the same as,http://www.wikidata.org/prop/direct/P460
+169,scenographer,http://www.wikidata.org/prop/direct/P4608
+170,opposite of,http://www.wikidata.org/prop/direct/P461
+171,color,http://www.wikidata.org/prop/direct/P462
+172,member of,http://www.wikidata.org/prop/direct/P463
+173,occupant,http://www.wikidata.org/prop/direct/P466
+174,shares border with,http://www.wikidata.org/prop/direct/P47
+175,input method,http://www.wikidata.org/prop/direct/P479
+176,make-up artist,http://www.wikidata.org/prop/direct/P4805
+177,archives at,http://www.wikidata.org/prop/direct/P485
+178,season,http://www.wikidata.org/prop/direct/P4908
+179,country of origin,http://www.wikidata.org/prop/direct/P495
+180,derivative work,http://www.wikidata.org/prop/direct/P4969
+181,author,http://www.wikidata.org/prop/direct/P50
+182,assessment,http://www.wikidata.org/prop/direct/P5021
+183,sound designer,http://www.wikidata.org/prop/direct/P5028
+184,presented in,http://www.wikidata.org/prop/direct/P5072
+185,cause of death,http://www.wikidata.org/prop/direct/P509
+186,member of the crew of,http://www.wikidata.org/prop/direct/P5096
+187,IGAC rating,http://www.wikidata.org/prop/direct/P5150
+188,KAVI rating,http://www.wikidata.org/prop/direct/P5152
+189,IMDA rating,http://www.wikidata.org/prop/direct/P5201
+190,has part,http://www.wikidata.org/prop/direct/P527
+191,diplomatic relation,http://www.wikidata.org/prop/direct/P530
+192,permanent resident of,http://www.wikidata.org/prop/direct/P5389
+193,member of sports team,http://www.wikidata.org/prop/direct/P54
+194,residence,http://www.wikidata.org/prop/direct/P551
+195,director,http://www.wikidata.org/prop/direct/P57
+196,publication date,http://www.wikidata.org/prop/direct/P577
+197,screenwriter,http://www.wikidata.org/prop/direct/P58
+198,plot expanded in,http://www.wikidata.org/prop/direct/P5940
+199,Medierådet rating,http://www.wikidata.org/prop/direct/P5970
+200,head of government,http://www.wikidata.org/prop/direct/P6
+201,conflict,http://www.wikidata.org/prop/direct/P607
+202,quotes work,http://www.wikidata.org/prop/direct/P6166
+203,copyright status,http://www.wikidata.org/prop/direct/P6216
+204,copyright representative,http://www.wikidata.org/prop/direct/P6275
+205,edition or translation of,http://www.wikidata.org/prop/direct/P629
+206,has works in the collection,http://www.wikidata.org/prop/direct/P6379
+207,sport,http://www.wikidata.org/prop/direct/P641
+208,ancestral home,http://www.wikidata.org/prop/direct/P66
+209,RCQ classification,http://www.wikidata.org/prop/direct/P6658
+210,located on street,http://www.wikidata.org/prop/direct/P669
+211,characters,http://www.wikidata.org/prop/direct/P674
+212,writing language,http://www.wikidata.org/prop/direct/P6886
+213,educated at,http://www.wikidata.org/prop/direct/P69
+214,animator,http://www.wikidata.org/prop/direct/P6942
+215,narrative motif,http://www.wikidata.org/prop/direct/P6962
+216,enemy of,http://www.wikidata.org/prop/direct/P7047
+217,located on terrain feature,http://www.wikidata.org/prop/direct/P706
+218,participant,http://www.wikidata.org/prop/direct/P710
+219,voice actor,http://www.wikidata.org/prop/direct/P725
+220,OFLC classification,http://www.wikidata.org/prop/direct/P7327
+221,given name,http://www.wikidata.org/prop/direct/P735
+222,influenced by,http://www.wikidata.org/prop/direct/P737
+223,location of formation,http://www.wikidata.org/prop/direct/P740
+224,has edition or translation,http://www.wikidata.org/prop/direct/P747
+225,parent organization,http://www.wikidata.org/prop/direct/P749
+226,distributed by,http://www.wikidata.org/prop/direct/P750
+227,IFCO rating,http://www.wikidata.org/prop/direct/P7573
+228,contributor to the creative work or subject,http://www.wikidata.org/prop/direct/P767
+229,significant event,http://www.wikidata.org/prop/direct/P793
+230,business model,http://www.wikidata.org/prop/direct/P7936
+231,form of creative work,http://www.wikidata.org/prop/direct/P7937
+232,historic county,http://www.wikidata.org/prop/direct/P7959
+233,notable work,http://www.wikidata.org/prop/direct/P800
+234,student,http://www.wikidata.org/prop/direct/P802
+235,dedicated to,http://www.wikidata.org/prop/direct/P825
+236,has cause,http://www.wikidata.org/prop/direct/P828
+237,public holiday,http://www.wikidata.org/prop/direct/P832
+238,media franchise,http://www.wikidata.org/prop/direct/P8345
+239,"references work, tradition or theory",http://www.wikidata.org/prop/direct/P8371
+240,narrative location,http://www.wikidata.org/prop/direct/P840
+241,set in environment,http://www.wikidata.org/prop/direct/P8411
+242,character designer,http://www.wikidata.org/prop/direct/P8670
+243,Hong Kong film rating,http://www.wikidata.org/prop/direct/P8874
+244,MTRCB rating,http://www.wikidata.org/prop/direct/P8889
+245,BAMID film rating,http://www.wikidata.org/prop/direct/P9086
+246,sexual orientation,http://www.wikidata.org/prop/direct/P91
+247,filming location,http://www.wikidata.org/prop/direct/P915
+248,main subject,http://www.wikidata.org/prop/direct/P921
+249,set during recurring event,http://www.wikidata.org/prop/direct/P9215
+250,place served by transport hub,http://www.wikidata.org/prop/direct/P931
+251,work location,http://www.wikidata.org/prop/direct/P937
+252,inspired by,http://www.wikidata.org/prop/direct/P941
+253,allegiance,http://www.wikidata.org/prop/direct/P945
+254,noble title,http://www.wikidata.org/prop/direct/P97
