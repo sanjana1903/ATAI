@@ -9,13 +9,13 @@ from collections import defaultdict
 from driver import *
 
 # url of the speakeasy server
-url = 'https://speakeasy.ifi.uzh.ch'
+url = 'https://server2.speakeasy-ai.org'
 listen_freq = 3
 
 graph = rdflib.Graph()
-graph.parse('D:\\Downloads\\ddis-movie-graph.nt\\14_graph.nt', format = 'turtle')
+graph.parse('/Users/sanjanawarambhey/Downloads/14_graph.nt', format = 'turtle')
 
-f = open('D:\\Downloads\\images.json\\images.json')
+f = open('/Users/sanjanawarambhey/Downloads/images.json')
 data = json.load(f)
 
 
@@ -55,9 +55,13 @@ class DemoBot:
                                 print('\t- Chatroom {} - new message #{}: \'{}\' - {}'.format(room_id, message['ordinal'], message['message'], self.get_time()))
 
                                 ##### You should call your agent here and get the response message #####
-                                question = message['message']
-                                response = run_driver(question, graph, data)
-
+                                try:
+                                    question = message['message']
+                                    response = run_driver(question, graph, data)
+                                    self.post_message(room_id=room_id, session_token=self.session_token, message=response.format(message['message'], self.get_time()))
+                                except Exception as e:
+                                    print(str(e))
+                                    print("Hello! Please ask me a question!")
                                 self.post_message(room_id=room_id, session_token=self.session_token, message='Got your message: \'{}\' at {}.'.format(message['message'], self.get_time()))
             time.sleep(listen_freq)
 
@@ -86,7 +90,9 @@ class DemoBot:
             print('- Session \'{}\' successfully logged out!'.format(self.session_token))
 
 if __name__ == '__main__':
-    username = 'tushardeo.manekar_bot'
-    password = getpass.getpass('Password of the demo bot:')
+    username = 'wingedCaribou8_bot'
+    password = 'siuB_hX10EmoPw'
     demobot = DemoBot(username, password)
     demobot.listen()
+
+
